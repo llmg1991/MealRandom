@@ -1,0 +1,62 @@
+*{
+    font-family: 'Montserrat';
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+header{
+    padding:1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    padding:5rem;
+}
+
+img{
+    width: 25em;
+}
+div{
+    padding: 1em;
+    width: 80%;
+}
+
+.youtubeLink{
+    width: 4em;
+}
+
+button{
+    background-color: #3498db;
+    color: #fff;
+    border:none;
+    padding: 1em 4em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 20rem;
+    height: 4rem;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+button:hover{
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
